@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color:rgb(12, 29, 53);
+    padding: 16px 0;
+    color:rgb(225, 215, 215);
+    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 18px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.articles article a {
+    background-color:rgb(46, 100, 139);    ;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:500;
+    margin-top: 8px;
+}
+
+li a {
+    color:rgb(225, 215, 215);
+    text-decoration: none;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article h3 {
+    font-size: 26px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 0, 200, 0.2);
+}
+
+#economy {
+    background-color: #fff;
+}
+
+#politics {
+    background-color: rgba(0, 0, 200, 0.2);
+}
+
+#entertainment {
+    background-color:#fff;
+}
